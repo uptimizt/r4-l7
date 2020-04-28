@@ -10,13 +10,15 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "style-loader": "^1.2.0"
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --mode development",

@@ -11,7 +11,7 @@ module.exports = {
     port: 3333
   },
 
-  entry: './src/app.js',
+  entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'docs'),
@@ -20,6 +20,14 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        test: /\.css$/i,
+        loader: 'css-loader',
+        options: {
+          import: true,
+        },
+      },
+
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,

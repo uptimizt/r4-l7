@@ -2,6 +2,9 @@
 up:
 	docker-compose up
 
+b:
+	yarn build
+
 stop:
 	docker-compose stop 
 

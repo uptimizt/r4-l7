@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import FilterableProductTable from './app-fil-table.js';
+import Game from './app-xo.js';
+import './index.css';
 
 
 ReactDOM.render(
-  <p>ddd</p>,
+    <Game />,
   document.getElementById('app-todo')
 );
-
-
-
-
 
 
 
