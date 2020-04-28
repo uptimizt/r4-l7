@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import FilterableProductTable from './app-fil-table.js';
 import Game from './app-xo.js';
+import TodoApp from './app-todo.js';
 import './index.css';
 
 
+
+
 ReactDOM.render(
-    <Game />,
+  <TodoApp />,
   document.getElementById('app-todo')
 );
-
-
 
 let PRODUCTS =
 [
@@ -28,3 +29,9 @@ ReactDOM.render(
 );
 
 
+
+
+ReactDOM.render(
+  <Game />,
+document.getElementById('app-xo')
+);
